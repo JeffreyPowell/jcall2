@@ -5,7 +5,7 @@
 $options = array(
  "--step", "300",		// Use a step-size of 5 minutes
  "--start", "now",		// this rrd started now xxx1 day ago
- "DS:activecalls:ABSOLUTE:600:0:U",
+ "DS:activecalls:GAUGE:600:0:U",
  "RRA:AVERAGE:0.5:1:288",
  "RRA:AVERAGE:0.5:12:168",
  "RRA:AVERAGE:0.5:228:365",
