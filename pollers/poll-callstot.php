@@ -9,8 +9,8 @@
 
   $calls = count($lines);
 
-  $ret = rrd_update("/var/scripts/jcall/jcall.rrd", "$now:$calls");
+  $ret = rrd_update("/usr/local/scripts/git/jcall/data/jcall.rrd", "$now:$calls");
 
-//echo "$now,$calls";
+echo "$now,$calls,$ret";
 
 ?>
