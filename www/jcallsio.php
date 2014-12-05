@@ -43,7 +43,7 @@ function create_graph($output, $start, $title, $height, $width) {
     "--lower=0",
     "--height=$height",
     "--width=$width",
-    "--colorCANVAS#1f1f1f",
+    "-cCANVAS#1f1f1f",
     //"--color SHADEA#00AA00",
     //"--color SHADEB#00AA00",
     //"--color GRID#00AA00",
