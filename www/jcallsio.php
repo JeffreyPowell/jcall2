@@ -17,7 +17,8 @@ echo "<meta http-equiv=\"refresh\" content=\"30\">";
 
 echo "</head><body bgcolor='#080808'>";
 #echo "<div id='outer' style='width:100%'><div id='inner'>";
-echo "<div align='center'><div id='inner'>";
+echo "<div align='center'>";
+#echo "<div id='inner'>";
 
 echo "<table>";
 echo "<tr><td>";
@@ -37,7 +38,8 @@ echo "<img src='calls-monthio.png' alt='Generated RRD image'>";
 echo "</td></tr>";
 echo "</table>";
 
-echo "</div></div>";
+#echo "</div>";
+echo "</div>";
 echo "</body></html>";
 
 exit;
