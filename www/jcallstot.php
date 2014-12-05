@@ -10,6 +10,7 @@ create_graph("calls-month.png", 	"-1m", 		"ROOST-VGW last 30 days", 		"70", "200
 
 echo "<html><head>";
 echo "<style> div.outer {display:block; margin-left:auto; margin-right:auto;}</style>";
+echo "<meta http-equiv=\"refresh\" content=\"30\">";
 echo "</head><body>";
 
 echo "<div class='outer'>";
