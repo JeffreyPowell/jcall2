@@ -61,7 +61,8 @@ function create_graph($output, $start, $title, $height, $width) {
     "AREA:transincalldata#b6d14b",
     "LINE4:transoutcalldata#8686bf:Active Outgoing Calls",
     "AREA:transoutcalldata#a0a0e5",
-    "COMMENT:\\n"#,
+     "-c BACK#00AA00"#,
+#    "COMMENT:\\n",
 #    "GPRINT:transincalldata:AVERAGE:Calls IN %6.2lf",
 #    "GPRINT:transoutcalldata:AVERAGE:Calls OUT %6.2lf"
   );
