@@ -9,8 +9,10 @@ create_graph("calls-month.png", 	"-1m", 		"ROOST-VGW last 30 days", 		"70", "200
 
 
 echo "<html><head>";
-#echo "<style> img {display:block; margin-left:auto; margin-right:auto;}</style>";
+echo "<style> div.outer {display:block; margin-left:auto; margin-right:auto;}</style>";
 echo "</head><body>";
+
+echo "<div class="outer">";
 
 echo "<table>";
 echo "<tr><td>";
@@ -29,6 +31,8 @@ echo "</td><td>";
 echo "<img src='calls-month.png' alt='Generated RRD image'>";
 echo "</td></tr>";
 echo "</table>";
+
+echo "</div class="outer">";
 echo "</body></html>";
 
 exit;
