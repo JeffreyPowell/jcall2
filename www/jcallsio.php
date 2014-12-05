@@ -49,7 +49,7 @@ function create_graph($output, $start, $title, $height, $width) {
     //"--color SHADEB#00AA00",
     //"--color GRID#00AA00",
     //"--color MGRID#00AA00",
-    //"--color FONT#00AA00",
+    "--cFONT#b7b7b7",
     //"--color AXIS#00AA00",
     //"--color FRAME#00AA00",
     //"--color ARROW#00AA00",
