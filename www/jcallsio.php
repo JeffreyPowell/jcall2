@@ -9,9 +9,12 @@ create_graph("calls-monthio.png",         "-1m",          "ROOST-VGW last 30 day
 
 echo "<html><head>";
 #echo "<style> img {display:block; margin-left:auto; margin-right:auto;}</style>";
-echo "<meta http-equiv=\"refresh\" content=\"30\">";
-echo "</head><body bgcolor='#FFFFFF'>";
+echo "<style> #outer {position: relative;} #inner {margin: auto; position: absolute; left:0; right: 0; top: 0; bottom: 0;}";
 
+echo "<meta http-equiv=\"refresh\" content=\"30\">";
+echo "</head><body bgcolor='#000000'>";
+echo "<div id='outer' style='width:100%'><div id='inner'>";
+    
 echo "<table>";
 echo "<tr><td>";
 echo "<img src='calls-hourio.png' alt='Generated RRD image'>";
@@ -29,6 +32,8 @@ echo "</td><td>";
 echo "<img src='calls-monthio.png' alt='Generated RRD image'>";
 echo "</td></tr>";
 echo "</table>";
+
+echo "</div></div>";
 echo "</body></html>";
 
 exit;
