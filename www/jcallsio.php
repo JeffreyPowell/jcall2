@@ -58,7 +58,7 @@ function create_graph($output, $start, $title, $height, $width) {
     "CDEF:transincalldata=incalldata,1,*",
     "CDEF:transoutcalldata=outcalldata,-1,*",
     "LINE4:transincalldata#a0b842:Active Incoming Calls",
-    "AREA:transincalldata#b6d14b99",
+    "AREA:transincalldata#b6d14b80",
     "LINE4:transoutcalldata#8686bf:Active Outgoing Calls",
     "AREA:transoutcalldata#a0a0e599",
 #    "COMMENT:\\n",
