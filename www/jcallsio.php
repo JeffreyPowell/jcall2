@@ -12,12 +12,13 @@ echo "<html><head>";
 echo "<meta http-equiv=\"refresh\" content=\"30\">";
 
 #echo "<style> #outer {position: relative;} #inner {margin: auto; position: absolute; left:0; right: 0; top: 0; bottom: 0;}</style>";
-echo "<style> #outer {position: relative;} #inner {width:100%;height:100%;display:box;box-orient:horizontal;box-pack:center;box-align:center;} </style>";
+#echo "<style> #outer {position: relative;} #inner {width:100%;height:100%;display:box;box-orient:horizontal;box-pack:center;box-align:center;} </style>";
 #echo "<style> #inner {left: 0; right: 0; margin-left: auto; margin-right: auto; position: absolute;} </style>";
 
 echo "</head><body bgcolor='#080808'>";
-echo "<div id='outer' style='width:100%'><div id='inner'>";
-    
+#echo "<div id='outer' style='width:100%'><div id='inner'>";
+echo "<div align='center'><div id='inner'>";
+
 echo "<table>";
 echo "<tr><td>";
 echo "<img src='calls-hourio.png' alt='Generated RRD image'>";
