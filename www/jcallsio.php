@@ -43,7 +43,7 @@ function create_graph($output, $start, $title, $height, $width) {
     "--lower=0",
     "--height=$height",
     "--width=$width",
-    //"--color CANVAS#00AA00",
+    "--colorCANVAS#1f1f1f",
     //"--color SHADEA#00AA00",
     //"--color SHADEB#00AA00",
     //"--color GRID#00AA00",
@@ -60,7 +60,7 @@ function create_graph($output, $start, $title, $height, $width) {
     "AREA:transincalldata#b6d14b",
     "LINE4:transoutcalldata#8686bf:Active Outgoing Calls",
     "AREA:transoutcalldata#a0a0e5",
-     "-cBACK#AAAA"#,
+     "-cBACK#161616"#,
 #    "COMMENT:\\n",
 #    "GPRINT:transincalldata:AVERAGE:Calls IN %6.2lf",
 #    "GPRINT:transoutcalldata:AVERAGE:Calls OUT %6.2lf"
