@@ -12,10 +12,10 @@ echo "<html><head>";
 echo "<meta http-equiv=\"refresh\" content=\"30\">";
 
 #echo "<style> #outer {position: relative;} #inner {margin: auto; position: absolute; left:0; right: 0; top: 0; bottom: 0;}</style>";
-echo "<style> #outer {width:100%;height:100%;display:box;box-orient:horizontal;box-pack:center;box-align:center;} </style>";
+#echo "<style> #inner {width:100%;height:100%;display:box;box-orient:horizontal;box-pack:center;box-align:center;} </style>";
+echo "<style> #inner {left: 0; right: 0; margin-left: auto; margin-right: auto; position: absolute;} </style>";
 
-
-echo "</head><body bgcolor='#000000'>";
+echo "</head><body bgcolor='#161616'>";
 echo "<div id='outer' style='width:100%'><div id='inner'>";
     
 echo "<table>";
@@ -59,7 +59,7 @@ function create_graph($output, $start, $title, $height, $width) {
     //"--color MGRID#00AA00",
     "-cFONT#b7b7b7",
     //"--color AXIS#00AA00",
-    "-cFRAME#161616",
+    "-cFRAME#ffffff",
     //"--color ARROW#00AA00",
     "DEF:incalldata=/usr/local/scripts/git/jcall/data/jcallio.rrd:incomingcalls:AVERAGE",
     "DEF:outcalldata=/usr/local/scripts/git/jcall/data/jcallio.rrd:outgoingcalls:AVERAGE",
