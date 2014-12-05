@@ -32,7 +32,7 @@ echo "<img src='calls-month.png' alt='Generated RRD image'>";
 echo "</td></tr>";
 echo "</table>";
 
-echo "</div class="outer">";
+echo "</div>";
 echo "</body></html>";
 
 exit;
