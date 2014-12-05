@@ -10,7 +10,7 @@ create_graph("calls-monthio.png",         "-1m",          "ROOST-VGW last 30 day
 echo "<html><head>";
 #echo "<style> img {display:block; margin-left:auto; margin-right:auto;}</style>";
 echo "<meta http-equiv=\"refresh\" content=\"30\">";
-echo "</head><body>";
+echo "</head><body bgcolor="#FFFFFF">";
 
 echo "<table>";
 echo "<tr><td>";
@@ -51,7 +51,7 @@ function create_graph($output, $start, $title, $height, $width) {
     //"--color MGRID#00AA00",
     "-cFONT#b7b7b7",
     //"--color AXIS#00AA00",
-    "-cFRAME#ffffff",
+    "-cFRAME#161616",
     //"--color ARROW#00AA00",
     "DEF:incalldata=/usr/local/scripts/git/jcall/data/jcallio.rrd:incomingcalls:AVERAGE",
     "DEF:outcalldata=/usr/local/scripts/git/jcall/data/jcallio.rrd:outgoingcalls:AVERAGE",
