@@ -43,16 +43,16 @@ function create_graph($output, $start, $title, $height, $width) {
     "--lower=0",
     "--height=$height",
     "--width=$width",
-    "--color BACK#00AA00";
-    //"--color CANVAS#00AA00";
-    //"--color SHADEA#00AA00";
-    //"--color SHADEB#00AA00";
-    //"--color GRID#00AA00";
-    //"--color MGRID#00AA00";
-    //"--color FONT#00AA00";
-    //"--color AXIS#00AA00";
-    //"--color FRAME#00AA00";
-    //"--color ARROW#00AA00";
+    "--color BACK#00AA00",
+    //"--color CANVAS#00AA00",
+    //"--color SHADEA#00AA00",
+    //"--color SHADEB#00AA00",
+    //"--color GRID#00AA00",
+    //"--color MGRID#00AA00",
+    //"--color FONT#00AA00",
+    //"--color AXIS#00AA00",
+    //"--color FRAME#00AA00",
+    //"--color ARROW#00AA00",
     "DEF:incalldata=/usr/local/scripts/git/jcall/data/jcallio.rrd:incomingcalls:AVERAGE",
     "DEF:outcalldata=/usr/local/scripts/git/jcall/data/jcallio.rrd:outgoingcalls:AVERAGE",
     "CDEF:transincalldata=incalldata,1,*",
