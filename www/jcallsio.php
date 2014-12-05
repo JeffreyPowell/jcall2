@@ -11,7 +11,8 @@ echo "<html><head>";
 #echo "<style> img {display:block; margin-left:auto; margin-right:auto;}</style>";
 echo "<meta http-equiv=\"refresh\" content=\"30\">";
 
-echo "<style> #outer {position: relative;} #inner {margin: auto; position: absolute; left:0; right: 0; top: 0; bottom: 0;}</style>";
+#echo "<style> #outer {position: relative;} #inner {margin: auto; position: absolute; left:0; right: 0; top: 0; bottom: 0;}</style>";
+echo "<style> #outer {width:100%;height:100%;display:box;box-orient:horizontal;box-pack:center;box-align:center;} </style>";
 
 
 echo "</head><body bgcolor='#000000'>";
