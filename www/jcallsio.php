@@ -10,7 +10,7 @@ create_graph("calls-monthio.png",         "-1m",          "ROOST-VGW last 30 day
 echo "<html><head>";
 #echo "<style> img {display:block; margin-left:auto; margin-right:auto;}</style>";
 echo "<meta http-equiv=\"refresh\" content=\"30\">";
-echo "</head><body bgcolor="#FFFFFF">";
+echo "</head><body bgcolor='#FFFFFF'>";
 
 echo "<table>";
 echo "<tr><td>";
