@@ -51,7 +51,7 @@ function create_graph($output, $start, $title, $height, $width) {
     //"--color MGRID#00AA00",
     "-cFONT#b7b7b7",
     //"--color AXIS#00AA00",
-    //"--color FRAME#00AA00",
+    "-cFRAME#1e1e1e",
     //"--color ARROW#00AA00",
     "DEF:incalldata=/usr/local/scripts/git/jcall/data/jcallio.rrd:incomingcalls:AVERAGE",
     "DEF:outcalldata=/usr/local/scripts/git/jcall/data/jcallio.rrd:outgoingcalls:AVERAGE",
