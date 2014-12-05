@@ -12,7 +12,7 @@ echo "<html><head>";
 echo "<style> div.outer {display:block; margin-left:auto; margin-right:auto;}</style>";
 echo "</head><body>";
 
-echo "<div class="outer">";
+echo "<div class='outer'>";
 
 echo "<table>";
 echo "<tr><td>";
